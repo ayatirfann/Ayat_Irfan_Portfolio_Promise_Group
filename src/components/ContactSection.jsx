@@ -124,15 +124,15 @@ export const ContactSection = () => {
 
             {/* Social Links */}
 <div className="pt-8 text-center">
-  <h4 className="font-medium mb-4">Connect With Me</h4>
+  {/*<h4 className="font-medium mb-4">Connect With Me</h4>*/}
   <div className="flex space-x-4 justify-center">
-    <a
+    {/*<a
       href="https://www.linkedin.com/in/ayat-irfann/"
       target="_blank"
       rel="noreferrer"
     >
       <Linkedin />
-    </a>
+    </a>*/}
 
     {/*
     <a href="#" target="_blank" rel="noreferrer">

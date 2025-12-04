@@ -12,42 +12,30 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Aspiring Data Scientist 
+              Passionate Frontend Developer 
             </h3>
 
             <p className="text-muted-foreground">
-              I specialize in creating responsive, accessible, and performant
-              web applications using React.js, Node.js, and Firebase. 
+              I'm a React-First Frontend Developer focused on building clean, scalable, and user-friendly interfaces.
             </p>
 
           
             <p className="text-muted-foreground">
-              Skilled in data analytics, leveraging data to 
-              uncover insights, drive decision-making, and optimize strategies. 
-              Proficient in conducting research, combining analytics rigor
-              with practical application to solve complex problems and support 
-              data-driven outcomes. 
+              I specialize in transforming UI/UX designs into high-quality, performant frontend experiences that scale. 
+              Accessibility is a core part of my engineering process. I design interfaces that support all kinds of users :)
             </p>
 
             <p className="text-muted foreground">
-              Growing interest in data science and machine learning, I aim to specialize in the 
-              development of models that extract meaningful patterns, predict outcomes, and enhance decision-making 
-              processes. 
+              Alongside engineering, I have experience working in Agile teams, collaborating with designers, backend developers, testers, 
+              and participating in code reviews to maintain consistent, maintainable codebases. 
             </p>
 
             <p className="text-muted-foreground">
-              Expertise in project management, coordinating cross-functional
-              teams, managing timelines, allocating resources effectively, and implementing
-              agile workflows to ensure that projects are delivered on time and with high 
-              quality. 
+              I thrive in collaborative, non-corporate teams - exactly like Promise Group's culture. 
             </p>
 
             <p className="text-muted-foreground">
-              I'm a passionate Software Engineer who thrives on building reliable, scalable, 
-              and user-focused solutions. My journey started with data analysis and software development, 
-              and now I'm diving deeper into data analytics and machine learning to create technology that's 
-              more adaptive and intelligent. From designing robust architectures to uncovering insights hidden 
-              in data, I'm driven by curiosity, precision and the joy of continuous learning.  
+              
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -73,10 +61,10 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg"> Frontend Development</h4>
                   <p className="text-muted-foreground">
-                    Building responsive web applications with React.js, Node.js, Express, and Firebase. 
-                    Experienced with Tailwind CSS, Socket.io, and SQL databases like MySQL, and PostgreSQL.
+                    Building responsive, scalable web applications using React.js (Hooks, Context API) and modern CSS with Tailwind.
+                    Experienced in REST API integration, component-driven architecture, and performance optimization for high-quality user experiences.
                   </p>
                 </div>
               </div>
@@ -88,10 +76,10 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">UI/UX & Accessibility</h4>
                   <p className="text-muted-foreground">
-                    Designing accessible, user-centered interfaces in Figma. 
-                    Implementing WCAG 2.2 and evaluation tools like WAVE.
+                    Designing and implementing accessible, user-centered interfaces following WCAG 2.2 standards. 
+                    Skilled in Figma-based UI development and using evaluation tools like WAVE to ensure inclusivity and usability.
                   </p>
                 </div>
               </div>
@@ -104,11 +92,10 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Data Analysis</h4>
+                  <h4 className="font-semibold text-lg">Agile Project Collaboration</h4>
                   <p className="text-muted-foreground">
-                    Turning data into insight using Excel and SQL. Experienced in cleaning, transforming, and visualizing 
-                    datasets for reporting and analysis. Skilled in creating interactive dashboard and visualizations using 
-                    Power BI and Excel Charts. Knowledge of Pandas, Numpy, and Matplotlib. 
+                    Working efficiently in Agile teams using Scrum and Kanban methodologies. 
+                    Proficient with tools like Jira, Trello, Git, and CI/CD pipelines for seamless planning, collaboration, and deployment.
                   </p>
                 </div>
               </div>
@@ -121,10 +108,9 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Data Science & Machine Learning</h4>
+                  <h4 className="font-semibold text-lg">Performance & Code Quality</h4>
                   <p className="text-muted-foreground">
-                    Developing facial recognition systems using Python tools such as DeepFace and ArcFace,
-                    applying AI-driven techniques to enhance decision-making.
+                    Applying best practices in code reviews, reusable component design, state management, and performance optimization. 
                   </p>
                 </div>
               </div>
@@ -132,37 +118,8 @@ export const AboutSection = () => {
 
             
 
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary" />
-                </div>
-
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
-                  <p className="text-muted-foreground">
-                    Managing projects with Agile and Scrum methodologies. Skilled in Jira, 
-                    Trello, and Notion for planning and collaboration.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary" />
-                </div>
-
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg">Research</h4>
-                  <p className="text-muted-foreground">
-                    Conducting applied research to generate insights and validate ideas. 
-                    Skilled in using Python, R, and SQL for data-driven investigations.
-                  </p>
-                </div>
-              </div>
-            </div>
+            
+            
 
 
 

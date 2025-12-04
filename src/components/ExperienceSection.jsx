@@ -9,7 +9,7 @@ export const ExperienceSection = () => {
 
         {/* Position Info */}
         <div className="text-center mb-12">
-          <h3 className="text-2xl font-semibold">Junior Software Engineer</h3>
+          <h3 className="text-2xl font-semibold">Junior Software Developer</h3>
           <h4 className="font-bold text-primary">
             National Incubation Center for Aerospace Technologies (NICAT)
           </h4>
@@ -23,65 +23,53 @@ export const ExperienceSection = () => {
           {/* DATABASE DESIGN & ANALYTICS */}
           <div className="gradient-border p-6 card-hover text-left space-y-3">
             <h4 className="font-semibold text-lg">
-              Database Design & Analytics
+              React Frontend Development 
             </h4>
             <p className="text-muted-foreground">
-              Designed and optimized SQL-based relational databases, leveraging Docker
-              for isolated development and testing. Improved schema efficiency through
-              normalization and denormalization trade-offs, ensuring high performance and
-              reliability. Delivered analytical dashboards and comparative data reports
-              to support strategic decision-making.
+              Developed and deployed multiply React interfaces used by industrial partners. 
+              Built reusable UI components with clean state logic and module architecture. 
+              Implemented WCAG-compliant UI elements to enhance accessibility. 
+              Participated in team code reviews, improving code consistency.
             </p>
           </div>
 
           {/* DATA VISUALIZATION */}
           <div className="gradient-border p-6 card-hover text-left space-y-3">
             <h4 className="font-semibold text-lg">
-              Data Visualization & Insights
+              UI/UX Collaboration
             </h4>
             <p className="text-muted-foreground">
-              Conducted analysis on multi-regional tourism datasets using SQL to extract
-              insights on visitor trends, geography, and seasonal demand. Developed
-              interactive Excel dashboards to visualize booking trends, tourist activities,
-              and performance indicators across divisions in Khyber Pakhtunkhwa.
+              Converted detailed Figma designs into pixel-perfect, responsive layouts. 
             </p>
           </div>
 
           {/* MACHINE LEARNING */}
           <div className="gradient-border p-6 card-hover text-left space-y-3">
             <h4 className="font-semibold text-lg">
-              Machine Learning & AI Systems
+              API Integration
             </h4>
             <p className="text-muted-foreground">
-              Developing a Facial Recognition System for sports analysis using DeepFace
-              and ArcFace frameworks. Implementing facial detection, alignment, feature
-              extraction, and verification modules. Building the machine learning pipeline
-              and authoring the Software Specification Document (SSD) to ensure alignment
-              with system architecture.
+              Integrated RESTful services and optimized async operations. Ensured consistent 
+              data flow across components. 
             </p>
           </div>
 
           {/* WEB DEVELOPMENT */}
           <div className="gradient-border p-6 card-hover text-left space-y-3">
-            <h4 className="font-semibold text-lg">React.js Development</h4>
+            <h4 className="font-semibold text-lg">Software Audits & Performance Fixes</h4>
             <p className="text-muted-foreground">
-              Developed a React Native web application for Kovara Barite Mining Company
-              as part of a partnership with NICAT. The platform showcased the company’s
-              mission, vision, operations, and contact information — enhancing digital
-              visibility and stakeholder engagement through a clean and responsive interface.
+              Audited frontend codebases for usability and bottlenecks. Produced reports with 
+              recommendations for optimization. Improved load times, interaction speed, and UI responsiveness. 
             </p>
           </div>
 
           {/* SOFTWARE AUDIT */}
           <div className="gradient-border p-6 card-hover text-left space-y-3">
             <h4 className="font-semibold text-lg">
-              Software Audit & Optimization
+              Agile Teamwork
             </h4>
             <p className="text-muted-foreground">
-              Performed in-depth software audits to identify usability gaps, integration
-              inefficiencies, and backend issues. Authored structured audit reports with
-              prioritized recommendations for optimization and collaborated with developers
-              to enhance software performance and scalability.
+              Used Git, JIRA, CI/CD pipelines. Worked in sprints & participated in daily standups.
             </p>
           </div>
         </div>

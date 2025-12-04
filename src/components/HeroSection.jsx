@@ -13,7 +13,7 @@ export const HeroSection = () => {
                     
                 </h1> 
                 <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto opacity-0 animate-fade-in-delay-2">
-                I build responsive, accessible, and high performance web interfaces using React.js, Typescript, and modern 
+                I build responsive, accessible, and high performance web interfaces using React.js, Javascript, Tailwind CSS, and modern 
                 frontend engineering practices. My work bridges clean design, scalable architecture, and WCAG-compliant user experiences.
                 I'd love to build high-quality interfaces as part of the Promise Group team. 
 
